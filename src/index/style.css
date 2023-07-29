@@ -1,0 +1,55 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Lexend Deca", sans-serif;
+}
+.header {
+  color: #9497a8;
+}
+.row {
+  display: flex;
+}
+.column {
+  width: 50%;
+}
+.img-1 {
+  max-width: 100%;
+  flex-shrink: 0;
+}
+.img-2 {
+  max-width: 100%;
+  z-index: 4;
+  flex-shrink: 0;
+}
+.img-3 {
+  background-size: cover;
+  max-width: 100%;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+
+.footer {
+  /* display: flex; */
+  background-color: #2b2b35;
+}
+
+.logo {
+  top: 9rem;
+  left: 9rem;
+  z-index: 4;
+}
+.fw-bolde {
+  font-weight: 800 !important;
+}
+.row {
+  --bs-gutter-x: 0px !important;
+}
+@media (min-width: 992px) {
+  .position-lg-relative {
+    position: relative;
+  }
+  .logo-lg {
+    top: 33rem;
+    left: 18rem;
+  }
+}
